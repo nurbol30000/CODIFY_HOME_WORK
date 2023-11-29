@@ -1,0 +1,68 @@
+body {
+    margin: 0;
+    height: 100vh;
+    background: #066acd;
+}
+.contaier1 {
+    width: 50%;
+    height: 70%;
+    background-color: #fbfbfb;
+    margin: auto ;
+    margin-top: 30vh;
+    border-radius: 8px;
+}
+h1 {
+    text-align: center;
+    margin: 0;
+}
+.top1 {
+    margin: 10px 15px 50px 30%;
+
+}
+.top {
+    margin: 15px 15px 15px 30% ;
+    border-color: #4f5050;
+    box-sizing: border-box;
+    border: 1px solid rgb(107, 107, 107);
+
+}
+.button1 {
+    background-color: #066acd;
+}
+.button {
+    height: 20px;
+    color: #000000;
+    background-color: rgb(0, 0, 0);
+    border-radius: 3px;
+    padding: 0px 10px 0px 10px;
+    margin-left: 90% ;
+}
+.top > button {
+    background-color: none;
+    /* border: 0.5 solid rgb(0, 255, 13); */
+    /* border-radius: 8px; */
+    /* padding: 12px 20px; */
+}
+.top > button:hover {
+    background-color: #0b0572;
+    
+    cursor: pointer; 
+
+}
+.top > button:active {
+    width: 20px;
+    height: 25px;
+    background-color: #fbfbfb;
+    color: rgb(214, 34, 142);
+    cursor: not-allowed;
+}
+.top1 > button:disabled {
+    cursor: help;
+    opacity: 0.4;
+}
+.top1 > button:active {
+    background-color: rebeccapurple;
+    width: 40px;
+    height: 25px;
+}
+
